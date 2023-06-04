@@ -8,7 +8,8 @@ const jwtcooki = async (res, statuscode, user)=>{
             Date.now() + process.env.Cookie_Expire * 24 * 60 * 60 * 1000
         ),
         httpOnly: true,
-        Domain:"ceinmain.onrender.com"
+        Domain:"ceinmain.onrender.com",
+        SameSite: SameSiteMode.None,
     };
 
 
