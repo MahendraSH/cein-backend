@@ -11,7 +11,7 @@ const jwtcooki = async (res, statuscode, user)=>{
         Domain:"ceinmain.onrender.com",
         // secure: true,
         
-        SameSite:None,
+        // SameSite:None,
     };
 
 
