@@ -9,9 +9,9 @@ const jwtcooki = async (res, statuscode, user)=>{
         ),
         httpOnly: true,
         Domain:"ceinmain.onrender.com",
-        // secure: true,
+        secure: true,
         
-        // SameSite:None,
+        SameSite: SameSiteMode.None,
     };
 
 
